@@ -1,6 +1,12 @@
 ## Tidy Data Assignment
+This repo contains my solution to the Getting and Cleaning Data Assignment for Week 4 Coursera course.
 
-Coursera Course, Getting and Cleaning Data, Week 4 Assignment 
+Simply execute "run_analysis.R". If the data is not on the same folder, the script automatically downloads and extract it in the right place. The script downloads and unzips the data and also install dplyr and data.table package if you don't have them. If you have already downloaded the data, you should just comment out a few lines of code, download.file and unzip. Some changes may be also required regarding the directories used because those are set for my pc.
+
+The scripts have been tested on Windows 8.1. 
+Below is the full description of the assignment. 
+
+###Coursera Course, Getting and Cleaning Data, Week 4 Assignment 
 
 ## Getting and Cleaning Data Course Projectless 
 The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set.
