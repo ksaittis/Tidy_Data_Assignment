@@ -109,6 +109,17 @@ Question: Uses descriptive activity names to name the activities in the data set
 6 LAYING
 
 ###Step 8.  Using the gsub function we try to replace as many column names as possible. Some of the pattern and replacements are shown below.
+
+leading t or f is based on time or frequency measurements.
+Body = related to body movement.
+Gravity = acceleration of gravity
+Acc = accelerometer measurement
+Gyro = gyroscopic measurements
+Jerk = sudden movement acceleration
+Mag = magnitude of movement
+
+
+
 ```
 names(extractedData)<-gsub("^t", "Time", names(extractedData))
 
