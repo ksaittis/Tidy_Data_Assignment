@@ -101,13 +101,14 @@ Question: Extracts only the measurements on the mean and standard deviation for 
 
 Question: Uses descriptive activity names to name the activities in the data set
 ###Step 7.  Using the following information we assigned the following character strings to the integers.
+```
 1 WALKING
 2 WALKING_UPSTAIRS
 3 WALKING_DOWNSTAIRS
 4 SITTING
 5 STANDING
 6 LAYING
-
+```
 ###Step 8.  Using the gsub function we try to replace as many column names as possible. Some of the pattern and replacements are shown below.
 
 leading t or f is based on time or frequency measurements.
